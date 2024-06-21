@@ -29,6 +29,8 @@ function App() {
             return (
               <div className="game" key={key}>
                 {game.external}
+                <img src={game.thumb} alt="" />
+                {game.cheapest}
               </div>
             );
           })}
