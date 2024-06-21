@@ -72,3 +72,18 @@ button {
   height: 35px;
   margin-top: 10px;
 }
+
+.dealsSection {
+  width: 100%;
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#deals {
+  background-color: cadetblue;
+  color: white;
+  width: 200px;
+  height: 200px;
+}
